@@ -2,9 +2,31 @@
 @import "semantic";
 
 body {
-    background: #caddf5;
+    background: #ff8d8d;
     width:99%;
     text-align: center;
     display:block;
+    font-family: avenir next, sans-serif;
+    
+}
+
+.title {
+    font-size: 100px;
+    text-transform: lowercase;
+    font-family: avenir next, sans-serif;
+    color: white;
+}
+
+h1 {
+    color: #ff2f2f;
+    font-family: avenir next, sans-serif;
+}
+h2 {
+    font-size: 20px;
+    text-transform: lowercase;
+    
+}
+h3 {
+    text-transform: lowercase;
     
 }

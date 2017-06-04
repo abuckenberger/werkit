@@ -10446,9 +10446,9 @@ base('werkit').select({
             //template literal
 var template = ` 
   <div class="card"><div class="name"><h1>${record.fields.Name}</h1></div>
-    <div class="type"><h2>${record.fields.Type}</h2>
+    <div class="type"><h2>(${record.fields.Type})</h2>
     <div class="workout"><p>${record.fields.Workout}</p>
-    <div class="time"><h3>${record.fields.Time}</h3>
+    <div class="time"><h3>(${record.fields.Time})</h3>
 
 
       
