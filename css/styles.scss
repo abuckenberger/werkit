@@ -3,10 +3,11 @@
 
 body {
     background: #ff8d8d;
-    width:99%;
+    width:90%;
     text-align: center;
     display:block;
     font-family: avenir next, sans-serif;
+    margin: 0 auto;
     
 }
 
@@ -20,13 +21,33 @@ body {
 h1 {
     color: #ff2f2f;
     font-family: avenir next, sans-serif;
+    font-size: 3.5em;
 }
 h2 {
     font-size: 20px;
     text-transform: lowercase;
+    font-family: noto sans, sans-serif;
     
 }
 h3 {
     text-transform: lowercase;
+    font-family: noto sans, sans-serif;
+    color: #d3cfcf;
+    font-style:italic;
+    font-size: 15px;
+    
     
 }
+.type {
+margin-top: -3px;
+
+}
+.time {
+    margin-top: -10px;
+}
+p {
+    
+    padding-bottom: 30px;
+    font-size: 1.75em;
+}
+
