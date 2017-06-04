@@ -10430,7 +10430,7 @@ var base = Airtable.base('appKZOc0KOB8mkat3');
 // Get Records
 base('werkit').select({
     // Selecting the first 3 records in Grid view:
-    maxRecords: 16,
+    maxRecords: 100,
     view: "Grid view"
 }).eachPage(function page(records, fetchNextPage) {
     // This function (`page`) will get called for each page of records.
@@ -10441,7 +10441,24 @@ base('werkit').select({
 //        console.log(record.fields.Time);
 //        console.log(record.fields.Workout);
 //        console.log(record.fields.Complete);
+      console.log( record.fields["Complete"] );
         
+        
+        
+var status_message;
+    
+    var status; 
+    
+    
+    
+    if (record.fields["Complete"]  === true) {
+    status = 'positive'; 
+    status_message = '<i class="icon checkmark"></i> WAY TO GO! ';
+    
+    } else {
+        
+        status_message = `<i class="icon close"></i> Get to it! `;
+    } 
             
             //template literal
 var template = ` 
@@ -10449,6 +10466,8 @@ var template = `
     <div class="type"><h2>(${record.fields.Type})</h2>
 <div class="time"><h3>(${record.fields.Time})</h3>
     <div class="workout"><p>${record.fields.Workout}</p>
+<div class="ui checkbox"><input type="checkbox" name="example">
+  <label>${status_message}</label></div>
     
 
 
@@ -10456,6 +10475,8 @@ var template = `
     </div>
   </div>
 `
+ 
+    
 
 
 $('main').append(template);
