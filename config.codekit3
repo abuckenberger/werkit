@@ -99,20 +99,9 @@
 		"oAP": "\/docs\/html\/scripts.html",
 		"oF": 0
 		},
-	"\/img\/cam.png": {
-		"ft": 32768,
-		"iS": 5531363,
-		"oA": 0,
-		"oAP": "\/docs\/img\/cam.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 54087,
+		"iS": 6860,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
@@ -121,11 +110,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/android-chrome-256x256.png": {
+	"\/img\/favicons\/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 90826,
+		"iS": 16702,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/android-chrome-256x256.png",
+		"oAP": "\/docs\/img\/favicons\/android-chrome-512x512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -134,7 +123,7 @@
 		},
 	"\/img\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 47960,
+		"iS": 3373,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/apple-touch-icon.png",
 		"oF": 0,
@@ -151,7 +140,7 @@
 		},
 	"\/img\/favicons\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 1212,
+		"iS": 994,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/favicon-16x16.png",
 		"oF": 0,
@@ -162,7 +151,7 @@
 		},
 	"\/img\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 2576,
+		"iS": 1456,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/favicon-32x32.png",
 		"oF": 0,
@@ -187,7 +176,7 @@
 		},
 	"\/img\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 26553,
+		"iS": 3663,
 		"oA": 0,
 		"oAP": "\/docs\/img\/favicons\/mstile-150x150.png",
 		"oF": 0,
@@ -196,6 +185,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/img\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/menu.png": {
 		"ft": 32768,
 		"iS": 598,
@@ -203,6 +202,17 @@
 		"oAP": "\/docs\/img\/menu.png",
 		"oF": 0,
 		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/running.png": {
+		"ft": 32768,
+		"iS": 16410,
+		"oA": 0,
+		"oAP": "\/docs\/img\/running.png",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
@@ -267,7 +277,7 @@
 	"displayValue": "werkit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl",
-	"lastBuiltDate": 518303454
+	"lastBuiltDate": 519018612
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
