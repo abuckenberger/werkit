@@ -22,22 +22,18 @@ base('werkit').select({
 }).eachPage(function page(records, fetchNextPage) {
     // This function (`page`) will get called for each page of records.
 
-    records.forEach(function(record) {
+records.forEach(function(record) {
 //        console.log(record.fields.Name);
 //        console.log(record.fields.Type);
 //        console.log(record.fields.Time);
 //        console.log(record.fields.Workout);
 //        console.log(record.fields.Complete);
-      console.log( record.fields["Complete"] );
-        
-        
-        
+//        console.log( record.fields["Complete"] );
+
 var status_message;
     
     var status; 
-    
-    
-    
+   
     if (record.fields["Complete"]  === true) {
     status = 'positive'; 
     status_message = '<i class="icon checkmark"></i> WAY TO GO! ';
@@ -47,14 +43,21 @@ var status_message;
         status_message = `<i class="icon close"></i> Get to it! `;
     } 
             
-            //template literal
+
+//template literal
 var template = ` 
-  <div class="card"><div class="name"><h1>${record.fields.Name}</h1></div>
-    <div class="type"><h2>(${record.fields.Type})</h2>
-<div class="time"><h3>(${record.fields.Time})</h3>
-    <div class="workout"><p>${record.fields.Workout}</p>
-<div class="ui checkbox"><input type="checkbox" name="example">
-  <label>${status_message}</label></div>
+  <div class="card">
+    <div class="name"><h1>${record.fields.Name}</h1></div>
+    
+
+    <div class="type"><h2>(${record.fields.Type})</h2></div>
+
+    <div class="time"><h3>(${record.fields.Time})</h3></div>
+    
+    <div class="workout"><p>${record.fields.Workout}</p></div>
+
+    <div class="ui checkbox"><input type="checkbox" name="example">
+    <label>${status_message}</label></div>
     
 
 
@@ -64,23 +67,22 @@ var template = `
 `
  
     
-
-
 $('main').append(template);
         
         
-    });
+});
     
+
     
+
 
     
     
     
-    
 
-    // To fetch the next page of records, call `fetchNextPage`.
-    // If there are more records, `page` will get called again.
-    // If there are no more records, `done` will get called.
+// To fetch the next page of records, call `fetchNextPage`.
+// If there are more records, `page` will get called again.
+// If there are no more records, `done` will get called.
     fetchNextPage();
 
 }, function done(err) {
@@ -89,7 +91,7 @@ $('main').append(template);
 
 
 
-//TIMER
+//Timer
 
 let countdown;
 const timerDisplay = document.querySelector('.display__time-left');
@@ -109,6 +111,8 @@ function timer(seconds) {
     const secondsLeft = Math.round((then - Date.now()) / 1000);
     // check if we should stop it!
     if(secondsLeft < 0) {
+    
+        
       clearInterval(countdown);
       return;
     }
@@ -136,6 +140,7 @@ function displayEndTime(timestamp) {
 function startTimer() {
   const seconds = parseInt(this.dataset.time);
   timer(seconds);
+    
 }
 
 buttons.forEach(button => button.addEventListener('click', startTimer));
@@ -145,18 +150,7 @@ document.customForm.addEventListener('submit', function(e) {
   console.log(mins);
   timer(mins * 60);
   this.reset();
+
+	
 });
 
-        
-
-        
-
-
-
-
-
-
-
-////img section
-//<div class="image">
-//<img src=" ${record.fields.Image[0].url} " alt="" value="PLAY"  onclick="play()></div>
