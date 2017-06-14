@@ -232,11 +232,38 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/axios.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/js\/axios.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/jquery.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/docs\/js\/jquery.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/react-dom.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/js\/react-dom.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/react.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/js\/react.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -277,7 +304,7 @@
 	"displayValue": "werkit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl",
-	"lastBuiltDate": 519018612
+	"lastBuiltDate": 519172731
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -1,4 +1,7 @@
 // @codekit-prepend "jquery.js";
+// @codekit-prepend "react.js";
+// @codekit-prepend "react-dom.js";
+// @codekit-prepend "axios.js";
 // @codekit-prepend "semantic.js";
 // @codekit-prepend "airtable.js";
 
