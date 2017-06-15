@@ -31127,7 +31127,7 @@ var template = `
     
     <div class="workout"><p>${record.fields.Workout}</p></div>
 
-    <div class="ui checkbox"><input type="checkbox" name="example">
+    <div class="complete">
     <label>${status_message}</label></div>
     
 
